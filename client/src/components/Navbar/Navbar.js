@@ -9,6 +9,9 @@ function Navbar() {
         <div className="bar2"></div>
         <div className="bar3"></div>
       </div>
+      <img src="/images/logo.png" alt="logo" />
+      <img src="/images/bag.svg" alt="shoppingBag" />
+      <hr />
     </div>
   );
 }

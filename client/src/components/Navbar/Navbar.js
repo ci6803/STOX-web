@@ -3,15 +3,17 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div>
-      <div className="nav--hamburger" onclick="myFunction(this)">
-        <div className="bar1"></div>
-        <div className="bar2"></div>
-        <div className="bar3"></div>
-      </div>
-      <img src="/images/logo.png" alt="logo" />
-      <img src="/images/bag.svg" alt="shoppingBag" />
-      <hr />
+    <div className="nav">
+      <img
+        className="w-[8.25rem] h-[1.06rem]"
+        src="/images/logo.png"
+        alt="logo"
+      />
+      <img
+        className="w-[1.06rem] h-[1.31rem]"
+        src="/images/bag.svg"
+        alt="shoppingBag"
+      />
     </div>
   );
 }

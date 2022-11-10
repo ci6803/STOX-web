@@ -1,0 +1,20 @@
+.hero {
+  padding: 1.875rem 0.81rem;
+}
+
+.hero .carousel {
+  white-space: nowrap;
+  cursor: pointer;
+  overflow-y: scroll;
+}
+
+.carousel img {
+  width: 7.37rem;
+  height: 11.25rem;
+  object-fit: cover;
+  margin-right: 0.75rem;
+}
+
+.carousel img:last-child {
+  margin-right: 0px;
+}

@@ -1,0 +1,14 @@
+.footer {
+  padding: 3.75rem 2.06rem 14.14rem 2.06rem;
+}
+
+.options {
+  display: flex;
+  gap: 1.125rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+}

@@ -73,7 +73,9 @@ function App() {
         } ease-in-out duration-300`}
       >
         <Hero />
+        <hr className="p-0" />
         <Menu />
+        <hr className="p-0" />
         <Footer />{" "}
       </div>
     </div>

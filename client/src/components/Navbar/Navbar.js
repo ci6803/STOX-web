@@ -9,11 +9,13 @@ function Navbar() {
         src="/images/logo.png"
         alt="logo"
       />
+      `
       <img
         className="w-[1.06rem] h-[1.31rem]"
         src="/images/bag.svg"
         alt="shoppingBag"
       />
+      `
     </div>
   );
 }

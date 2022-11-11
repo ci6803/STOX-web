@@ -12,3 +12,8 @@
   flex-direction: column;
   gap: 0.9375rem;
 }
+
+.language {
+  display: flex;
+  gap: 0.625rem;
+}

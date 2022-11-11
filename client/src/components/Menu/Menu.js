@@ -1,7 +1,8 @@
 import React from "react";
 import "./Menu.css";
-import Category from "./Category";
+// import { Submenu, Category } from "./Category";
 // import Submenu from "./Submenu";
+import Category from "./Category";
 
 function Menu() {
   const dailyItems = ["test1", "test2"];
@@ -14,7 +15,7 @@ function Menu() {
     "WORK SOCKS",
   ];
   return (
-    <div className="menu">
+    <div className="menu" submenu={dailyItems}>
       <Category name="DAILY" submenu={dailyItems} />
       {/* <Submenu submenu={dailyItems} /> */}
       <hr className="p-0" />

@@ -1,5 +1,6 @@
 .menu h2 {
-  padding: 1.1875rem 2.0625rem;
+  padding-top: 1.1875rem;
+  padding-left: 2.0625rem;
   font-weight: bold;
   /* font-size: 12px;
   line-height: 12px;
@@ -15,11 +16,20 @@
   padding-bottom: 1.1875rem;
 }
 
-.category {
+.category,
+.menu--opened-top {
   display: flex;
   justify-content: space-between;
 }
 
-.category button {
+.category button,
+.menu--opened-top button {
   padding-right: 0.875rem;
+}
+.menu--opened-submenu {
+  padding-left: 2.0625rem;
+  padding-bottom: 1.1875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1875rem;
 }

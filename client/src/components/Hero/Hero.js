@@ -22,6 +22,8 @@ function Hero() {
         <img src="/images/running.png" alt="fitness" />
         <img src="/images/tenis.png" alt="tenis" />
         <img src="/images/fitness.png" alt="fitness" />
+        <img src="/images/fitness.png" alt="fitness" />
+        <img src="/images/fitness.png" alt="fitness" />
       </div>
     </div>
   );

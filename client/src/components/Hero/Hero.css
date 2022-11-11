@@ -8,11 +8,16 @@
   overflow-y: scroll;
 }
 
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
 .carousel img {
   width: 7.37rem;
   height: 11.25rem;
   object-fit: cover;
   margin-right: 0.75rem;
+  display: inline;
 }
 
 .carousel img:last-child {

@@ -1,18 +1,32 @@
 import React from "react";
 import "./Menu.css";
+import Category from "./Category";
+// import Submenu from "./Submenu";
 
 function Menu() {
+  const dailyItems = ["test1", "test2"];
+  const sportsItems = [
+    "SPORT SOCKS",
+    "RUNNING SOCKS",
+    "SKI SOCKS",
+    "FLIGHT SOCKS",
+    "HIKING SOCKS",
+    "WORK SOCKS",
+  ];
   return (
     <div className="menu">
-      <h2>DAILY</h2>
+      <Category name="DAILY" submenu={dailyItems} />
+      {/* <Submenu submenu={dailyItems} /> */}
       <hr className="p-0" />
-      <h2>SPORT</h2>
+      <Category name="SPORTS" submenu={sportsItems} />
+      {/* <Submenu submenu={sportsItems} /> */}
       <hr className="p-0" />
-      <h2>TRAVEL</h2>
+      <Category name="TRAVEL" />
       <hr className="p-0" />
-      <h2>MEDICAL</h2>
+      <Category name="MEDICAL" />
       <hr className="p-0" />
-      <h2>MORE</h2>
+      <Category name="MORE" />
+      <hr className="p-0" />
     </div>
   );
 }

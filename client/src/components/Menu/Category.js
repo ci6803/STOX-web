@@ -1,16 +1,5 @@
 import React, { useState } from "react";
 import "./Menu.css";
-// import Submenu from "./Submenu";
-
-// function Submenu({ submenu }) {
-//   return (
-//     <div className="submenu">
-//       {submenu.map((title) => {
-//         return <p key={title}>{title}</p>;
-//       })}
-//     </div>
-//   );
-// }
 
 function Category(props) {
   const [isOpen, setIsOpen] = useState(false);
@@ -59,8 +48,13 @@ function Category(props) {
             </button>
           </div>
           <section className="menu--opened-submenu">
-            {props.submenu.map((title) => (
-              <h3>{title}</h3>
+            {props.submenu.map(({ title, number }) => (
+              <h3 key={title}>
+                {title}{" "}
+                <p className="pr-[0.75rem] text-[8px] text-[#A2A2A2]">
+                  {number} products
+                </p>
+              </h3>
             ))}
           </section>
         </div>

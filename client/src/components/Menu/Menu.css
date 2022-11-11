@@ -33,3 +33,9 @@
   flex-direction: column;
   gap: 1.1875rem;
 }
+
+.menu--opened-submenu h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -17,9 +17,28 @@
   height: 11.25rem;
   object-fit: cover;
   margin-right: 0.75rem;
-  display: inline;
+  /* display: inline; */
 }
 
 .carousel img:last-child {
   margin-right: 0px;
+}
+
+.hero--card {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.hero--card h1 {
+  position: absolute;
+  bottom: 0.6rem;
+  left: 47%;
+  transform: translateX(-50%);
+
+  font-size: 20px;
+  line-height: 20px;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+  color: white;
 }

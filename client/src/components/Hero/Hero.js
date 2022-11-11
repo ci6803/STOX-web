@@ -1,5 +1,5 @@
 // import React, { useEffect, useState } from "react";
-// import Card from "./Card";
+import Card from "./Card";
 import "./Hero.css";
 
 function Hero() {
@@ -16,14 +16,16 @@ function Hero() {
   return (
     <div className="hero">
       <div className="carousel">
-        {/* <Card img="/images/running.png" alt="running" name="Running" />
+        <Card img="/images/running.png" alt="running" name="Running" />
         <Card img="/images/tenis.png" alt="tenis" name="Tenis" />
-        <Card img="/images/fitness.png" alt="fitness" name="Fitness" /> */}
-        <img src="/images/running.png" alt="fitness" />
+        <Card img="/images/fitness.png" alt="fitness" name="Fitness" />
+        <Card img="/images/fitness.png" alt="fitness" name="Fitness" />
+        <Card img="/images/fitness.png" alt="fitness" name="Fitness" />
+        {/* <img src="/images/running.png" alt="fitness" />
         <img src="/images/tenis.png" alt="tenis" />
         <img src="/images/fitness.png" alt="fitness" />
         <img src="/images/fitness.png" alt="fitness" />
-        <img src="/images/fitness.png" alt="fitness" />
+        <img src="/images/fitness.png" alt="fitness" /> */}
       </div>
     </div>
   );

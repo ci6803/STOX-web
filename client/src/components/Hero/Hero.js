@@ -17,7 +17,7 @@ function Hero() {
     <div className="hero">
       <div className="carousel">
         <Card img="/images/running.png" alt="running" name="Running" />
-        <Card img="/images/tenis.png" alt="tenis" name="Tenis" />
+        <Card img="/images/tenis.png" alt="tennis" name="Tennis" />
         <Card img="/images/fitness.png" alt="fitness" name="Fitness" />
         <Card img="/images/fitness.png" alt="fitness" name="Fitness" />
         <Card img="/images/fitness.png" alt="fitness" name="Fitness" />

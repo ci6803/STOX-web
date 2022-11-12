@@ -2,25 +2,23 @@
   padding: 1.875rem 0 1.4375rem 0.81rem;
 }
 
-.hero .carousel {
+.hero .slide {
   white-space: nowrap;
   overflow-y: scroll;
 }
 
-.carousel::-webkit-scrollbar {
+.slide::-webkit-scrollbar {
   display: none;
 }
 
-.carousel img {
+.slide img {
   width: 7.37rem;
   height: 11.6875rem;
-  /* width: 118px;
-  height: 187px; */
   object-fit: cover;
   margin-right: 0.75rem;
 }
 
-.carousel img:last-child {
+.slide img:last-child {
   margin-right: 0px;
 }
 

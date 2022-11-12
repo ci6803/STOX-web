@@ -4,7 +4,7 @@ import "./Hero.css";
 function Card(props) {
   return (
     <div className="hero--card">
-      <img id="{" src={props.img} alt={props.alt} />
+      <img src={props.img} alt={props.alt} />
       <h1>{props.name}</h1>
     </div>
   );

@@ -38,17 +38,11 @@ function App() {
             <Navbar />
           </div>
           <hr className="p-0" />
-          <div
-            className={`${
-              isOpen ? "translate-y-0" : "translate-y-full"
-            } ease-in-out duration-300`}
-          >
-            <Hero />
-            <hr className="p-0" />
-            <Menu />
-            <hr className="p-0" />
-            <Footer />{" "}
-          </div>
+          <Hero />
+          <hr className="p-0" />
+          <Menu />
+          <hr className="p-0" />
+          <Footer />
         </div>
       )}
     </div>

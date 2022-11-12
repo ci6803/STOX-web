@@ -1,10 +1,9 @@
 .hero {
-  padding: 1.875rem 0.81rem;
+  padding: 1.875rem 0 1.4375rem 0.81rem;
 }
 
 .hero .carousel {
   white-space: nowrap;
-  cursor: pointer;
   overflow-y: scroll;
 }
 
@@ -14,10 +13,11 @@
 
 .carousel img {
   width: 7.37rem;
-  height: 11.25rem;
+  height: 11.6875rem;
+  /* width: 118px;
+  height: 187px; */
   object-fit: cover;
   margin-right: 0.75rem;
-  /* display: inline; */
 }
 
 .carousel img:last-child {
@@ -32,7 +32,7 @@
 
 .hero--card h1 {
   position: absolute;
-  bottom: 0.6rem;
+  bottom: 0.9rem;
   left: 47%;
   transform: translateX(-50%);
 

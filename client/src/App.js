@@ -15,24 +15,10 @@ function App() {
         <div>
           <div className="nav--open">
             <button onClick={() => setIsOpen(!isOpen)}>
-              <svg
-                className="w-[1.25rem] h-[1.13rem]"
-                width="24px"
-                height="24px"
-                viewBox="0 0 24 24"
-                role="img"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-labelledby="hamburgerIconTitle"
-                stroke="#000000"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                fill="none"
-                color="#000000"
-              >
-                {" "}
-                <title id="hamburgerIconTitle">Menu</title>{" "}
-                <path d="M6 7L18 7M6 12L18 12M6 17L18 17" />{" "}
+              <svg viewBox="0 0 85 78" width="24px" height="20px">
+                <rect width="85" height="10"></rect>
+                <rect y="33" width="85" height="10"></rect>
+                <rect y="66" width="85" height="10"></rect>
               </svg>
             </button>
             <Navbar />
@@ -43,23 +29,10 @@ function App() {
         <div>
           <div className="nav--open">
             <button onClick={() => setIsOpen(!isOpen)}>
-              <svg
-                width="24px"
-                height="24px"
-                viewBox="0 0 24 24"
-                role="img"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-labelledby="hamburgerIconTitle"
-                stroke="#000000"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                fill="none"
-                color="#000000"
-              >
-                {" "}
-                <title id="hamburgerIconTitle">Menu</title>{" "}
-                <path d="M6 7L18 7M6 12L18 12M6 17L18 17" />{" "}
+              <svg viewBox="0 0 85 78" width="24px" height="20px">
+                <rect width="85" height="10"></rect>
+                <rect y="33" width="85" height="10"></rect>
+                <rect y="66" width="85" height="10"></rect>
               </svg>
             </button>
             <Navbar />

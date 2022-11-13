@@ -17,8 +17,8 @@ function App() {
             <button onClick={() => setIsOpen(!isOpen)}>
               <svg viewBox="0 0 85 78" width="24px" height="20px">
                 <rect width="85" height="10"></rect>
-                <rect y="33" width="85" height="10"></rect>
-                <rect y="66" width="85" height="10"></rect>
+                <rect y="31" width="85" height="10"></rect>
+                <rect y="62" width="85" height="10"></rect>
               </svg>
             </button>
             <Navbar />
@@ -31,8 +31,8 @@ function App() {
             <button onClick={() => setIsOpen(!isOpen)}>
               <svg viewBox="0 0 85 78" width="24px" height="20px">
                 <rect width="85" height="10"></rect>
-                <rect y="33" width="85" height="10"></rect>
-                <rect y="66" width="85" height="10"></rect>
+                <rect y="31" width="85" height="10"></rect>
+                <rect y="62" width="85" height="10"></rect>
               </svg>
             </button>
             <Navbar />

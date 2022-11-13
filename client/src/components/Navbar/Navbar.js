@@ -11,8 +11,8 @@ function Navbar() {
       />
       <div className="nav--bag">
         <img
-          className="w-[1.06rem] h-[1.468rem]"
-          src="/images/bag.svg"
+          className="w-[1.06rem] h-[1.4rem]"
+          src="/images/bag.png"
           alt="shoppingBag"
         />
         <p>0</p>

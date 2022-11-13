@@ -10,7 +10,11 @@ function Category(props) {
         <div className="menu--closed">
           <h2 className="pb-[1.1875rem]">{props.name}</h2>
           <button onClick={() => setIsOpen(!isOpen)}>
-            <img src="/images/arrowDown.svg" alt="arrow-down" />
+            <img
+              src="/images/arrowDown.png"
+              alt="arrow-down"
+              className="w-[0.75rem] h-[0.375rem]"
+            />
           </button>
         </div>
       ) : (
@@ -18,7 +22,11 @@ function Category(props) {
           <div className="menu--opened">
             <h2 className="pb-[1.3568rem]">{props.name}</h2>
             <button onClick={() => setIsOpen(!isOpen)}>
-              <img src="/images/arrowUp.svg" alt="arrow-up" />
+              <img
+                src="/images/arrowUp.png"
+                alt="arrow-up"
+                className="w-[0.75rem] h-[0.375rem]"
+              />
             </button>
           </div>
           <section className="menu--opened-submenu">

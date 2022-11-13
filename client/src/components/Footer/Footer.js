@@ -13,7 +13,11 @@ function Footer() {
         <h2>
           <b>LANGUAGE :</b> EN €
         </h2>
-        <img src="/images/arrowDown.svg" alt="arrow-down" />
+        <img
+          src="/images/arrowDown.png"
+          alt="arrow-down"
+          className="w-[12px] h-[6px]"
+        />
       </section>
       <section className="time pb-[0.9375rem]">
         <p>
